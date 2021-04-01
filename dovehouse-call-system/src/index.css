@@ -1,0 +1,146 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  background-color: #36393f;
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-bar {
+  background-color: #23272a;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+}
+
+.top-bar button {
+  color: #fff;
+  background-color: #36393f;
+  border: none;
+  height: 80px;
+  width: 125px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.top-bar .time {
+  position: relative;
+  margin: -50px 0 0 200px;
+}
+
+.media-controls {
+  position: fixed;
+  height: 100px;
+  background-color: #23272a;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+.media-controls .middle {
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin: 0 0 0 -200px;
+}
+
+.media-controls .middle-media {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: x-large;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+.manual-panel {
+  background-color: #23272a;
+  left: 0;
+  top: 0;
+  width: 500px;
+  height: 250px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -125px 0 0 -250px;
+  display: none;
+}
+
+.manual-panel .close {
+  color: #fff;
+  border: none;
+  background-color: #23272a;
+  font-size: 30px;
+  position: relative;
+  left: 92%;
+}
+
+.manual-panel h1 {
+  color: #fff;
+  position: relative;
+  top: 2%;
+  text-align: center;
+  margin: -25px 0 0 0;
+}
+
+.manual-panel h2 {
+  color: #fff;
+  font-size: small;
+  padding-left: 5px;
+}
+
+.manual-panel .call {
+  color: #fff;
+  background-color: #36393f;
+  border: none;
+  position: relative;
+  width: 30%;
+  height: 20%;
+  left: 5%;
+}
+
+
+
+.timings-preshow {
+  background-color: #23272a;
+  left: 0;
+  top: 0;
+  width: 500px;
+  height: 250px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -125px 0 0 -250px;
+  display: none;
+}
+
+.timings-preshow .close {
+  color: #fff;
+  border: none;
+  background-color: #23272a;
+  font-size: 30px;
+  position: relative;
+  left: 92%;
+}
+
+.timings-preshow h1 {
+  color: #fff;
+  position: relative;
+  top: 2%;
+  text-align: center;
+  margin: -25px 0 0 0;
+}
+
+.timings-preshow h2 {
+  color: #fff;
+  font-size: small;
+  padding-left: 5px;
+}

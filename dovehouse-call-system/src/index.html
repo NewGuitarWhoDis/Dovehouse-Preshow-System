@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dovehouse Call System</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/amplitudejs@{{version-number}}/dist/amplitude.js"
+    ></script>
+  </head>
+  <body>
+    <div class="top-bar">
+      <button onclick="openManualCalls()">Manual Calls</button>
+      <!-- <div class="time">
+        <form action="/action_page.php">
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+        <input type="submit">
+      </form> -->
+      </div>
+    </div>
+    <div class="media-controls">
+      <div class="middle">
+        <button class="middle-media">
+          <i class="fa fa-random" aria-hidden="false"></i>
+        </button>
+        <button class="middle-media">
+          <i class="fa fa-step-backward" aria-hidden="true"></i>
+        </button>
+        <button class="middle-media">
+          <i class="fa fa-play" aria-hidden="true"></i>
+        </button>
+        <button class="middle-media">
+          <i class="fa fa-step-forward" aria-hidden="true"></i>
+        </button>
+        <button class="middle-media">
+          <i class="fa fa-repeat" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+    <div id="manual-panel" class="manual-panel">
+      <button class="close" onclick="closeManualCalls()">
+        <i class="fa fa-close"></i>
+      </button>
+      <h1>Manual Calls</h1>
+      <h2>Preshow</h2>
+      <button class="call" onclick="fifteenMinutePreshow()">
+        15 minute call
+      </button>
+      <button class="call" onclick="fiveMinutePreshow()">5 minute call</button>
+      <button class="call" onclick="aboutToBeginPreshow()">
+        About to begin
+      </button>
+      <h2>Interval</h2>
+      <button class="call" onclick="fiveMinuteInterval()">5 minute call</button>
+      <button class="call" onclick="aboutToBeginInterval()">
+        About to begin
+      </button>
+    </div>
+    <div class="timings-preshow">
+      <h1>Call Timings - Preshow</h1>
+      <h2>15 Minute Call: </h2>
+      <h2>5 Minute Call: </h2>
+      <h2>About to begin: </h2>
+    </div>
+  </body>
+</html>
